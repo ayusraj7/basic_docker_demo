@@ -10,5 +10,7 @@ app.get('/home',(req,res)=> {
 
 
 app.listen(process.env.PORT,()=>{
-    console.log('started the server');
+    console.log(`started the server on port ${process.env.PORT} `);
 })
+
+
